@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose = "1" name = "Orange HRM automation">
+    <test name = "Orange HRM Login">
+        <classes>
+            <class name = "testrunner.LoginTestRunner"/>
+        </classes>
+    </test>
+    <test name = "Orange HRM PIM Page">
+        <classes>
+            <class name = "testrunner.PIMTestRunner"/>
+        </classes>
+    </test>
+    <test name = "Orange HRM Employee Login">
+        <classes>
+            <class name = "testrunner.EmployeeTestRunner"/>
+        </classes>
+    </test>
+</suite>
